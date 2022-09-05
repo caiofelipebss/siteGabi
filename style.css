@@ -122,3 +122,55 @@ html {
     color: white;
 }
 
+.sobre-mim {
+    background-color:  rgb(219, 191, 224);
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre-mim img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid white;    
+}
+
+.content-sobre h2{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-sobre p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
+
+
+.caiologo img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 10px;
+}
+
+.caiologo a {
+    text-transform: uppercase;    
+}
