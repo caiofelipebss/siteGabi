@@ -122,11 +122,12 @@ html {
     color: white;
 }
 
+/* SOBRE MIM */
+
 .sobre-mim {
-    background-color:  rgb(219, 191, 224);
-    width: 100%;
+    background-color:  white;
     padding-bottom: 5rem;
-    color: white;
+    color:  rgb(149, 129, 153);;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,6 +151,7 @@ html {
     margin-top: 10rem;
     margin-left: 10rem;
     border: 2px solid white;    
+    border-radius: 10%;
 }
 
 .content-sobre h2{
@@ -159,15 +161,23 @@ html {
 }
 
 .content-sobre p {
-    text-align: center;
+    text-align: justify;    
     font-size: 1.8rem;
     width: 600px;
 }
 
 
+
+
+footer {
+    height: 25px;
+    background-color:  rgb(219, 191, 224);
+    color: rgb(255, 255, 255);
+}
+
 .caiologo img{
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.4rem;
+    height: 1.4rem;
     border-radius: 10px;
 }
 
