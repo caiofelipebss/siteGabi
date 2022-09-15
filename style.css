@@ -166,7 +166,12 @@ html {
     width: 600px;
 }
 
+.posts {
+    background-color: #91e8f1;
+    width: 100vw;
+    height: 100vh;    
 
+}
 
 
 footer {
