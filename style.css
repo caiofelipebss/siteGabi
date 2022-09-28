@@ -26,8 +26,7 @@ html {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(219, 191, 224);
-    position: fixed;
-    padding-left: 30rem;
+    position: fixed;    
 }
 
 .content .logo a{
@@ -88,7 +87,7 @@ html {
     align-items: center;
 }
 
-.first-section .conteudo-principal {
+.first-section .first-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,10 +126,12 @@ html {
 .sobre-mim {
     background-color:  white;
     padding-bottom: 5rem;
-    color:  rgb(149, 129, 153);;
+    color:  rgb(149, 129, 153);
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 80vh;
+    width: 100vw;
 }
 
 .content-sobre {
@@ -166,12 +167,104 @@ html {
     width: 600px;
 }
 
-.posts {
-    background-color: #91e8f1;
-    width: 100vw;
-    height: 100vh;    
 
+/* DESTAQUES */
+
+.container-destaques {    
+    width: 100vw;
+    height: 80vh;    
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.container-destaques img {
+    max-width: 100px;
+    height: 100px;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 10px;    
+}
+
+.container-destaques .card {
+    position: relative;
+    cursor: pointer;
+}
+
+.container-destaques .card .face {
+    width: 20vw;
+    height: 40vh;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.container-destaques .card .face.face1 {
+    position: relative;
+    background-color: #91e8f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 20px 50px rgba(0,0,0, 0.3);
+    border-radius: 15px;
+    z-index: 1;
+    transform: translateY(200px);
+}
+
+.container-destaques .card:hover .face.face1 {
+    background: rgb(219, 191, 224);
+    transform: translateY(0);
+}
+
+.container-destaques .card:hover .face.face1 {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.container-destaques .card:hover .face.face1 .content-destaque {
+    opacity: 1;
+}
+
+.container-destaques .card .face.face1 .content-destaque  img{
+    max-width: 100px;
+}
+
+.container-destaques .card .face.face1 .content-destaque h3 {
+    margin: 10px 0 0;
+    color: rgb(149, 129, 153);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container-destaques .card .face.face2 {
+    align-items: center;
+    padding: 10px;
+    text-align: justify;
+    color: rgb(149, 129, 153);
+}
+
+.container-destaques .card .face.face2 .content-destaque a {
+    margin: 15px 0 0;
+    display: inline-block;
+    font-weight: 900;
+    color: #333;
+    padding:5px;
+    border: 1px solid #333;
+    transition: 0.5s;
+}
+
+.container-destaques .card .face.face2 .content-destaque a:hover {
+    border-radius: 10px;
+    background-color: #10536d;
+    color: white;
+}
+
+
+
+
+
+
+
 
 
 footer {
